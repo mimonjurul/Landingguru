@@ -1,0 +1,46 @@
+.navbar {
+    transition: all 0.4s ease;
+    margin-bottom: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+    .navbar-nav {
+
+        .nav-item {
+
+            .nav-link {
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 33px;
+                color: #02073E;
+                margin: 0 18px;
+                transition: all 0.2s;
+
+                &:hover{
+                    color: #EA3A60;
+                }
+            }
+            .color_red{
+                color: #EA3A60;
+            }
+        }
+    }
+
+    .nav__btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.16px;
+        color: #EA3A60;
+        background: transparent;
+        border: 2px solid #EA3A60;
+        transition: all 0.25s;
+        border-radius: 50px;
+        padding: 13px 31px;
+
+        &:hover {
+            background: #EA3A60;
+            color: #fff;
+        }
+    }
+}

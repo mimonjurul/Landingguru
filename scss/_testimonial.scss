@@ -1,0 +1,99 @@
+.testimonial.container {
+    margin-bottom: 181px;
+    .testimonial__top {
+      .testimonial__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 2.1px;
+        text-transform: uppercase;
+        color: #EA3A60;
+      }
+  
+      .testimonial__heading {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 55px;
+        letter-spacing: -1.5px;
+        color: #0F2137;
+        margin-bottom: 72px;
+      }
+    }
+  
+    .testimonial__bottom {
+        gap: 38px;
+      .testimonial__card {
+        width: 422px;
+        transition: all 0.3s ease 0s;
+        border-radius: 6px;
+        text-align: left;
+        border: 1px solid #eef5fe;
+
+        &:hover{
+            box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
+        }
+
+        .card__content{
+            padding: 33px 14px 41px 40px;
+        
+
+        .testimonial__card--image {
+
+        }
+  
+        .testimonial__card--title {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 33px;
+            color: #343D48;
+            margin: 6px 0 20px;
+        }
+  
+        .testimonial__card--description {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 38px;
+            color: #343D48;
+            width: 394px;
+        }
+  
+        .teasimonial__author{
+            margin-top: 31px;
+          img {
+            width: 55px;
+            height: 55px;
+            margin-right: 19px;
+          }
+  
+          .author__info {
+            .author__name {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 40px;
+                letter-spacing: -0.4px;
+                color: #0F2137;
+                margin-bottom: -18px;
+                margin-top: -6px;
+            }
+  
+            .author__tag {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 40px;
+                letter-spacing: -0.375px;
+                color: #EA3A60;
+            }
+            }
+          }
+        }
+      }
+    }
+
+    .testimonial__arrow{
+        margin-top: 50px;
+        i{
+            font-size: 24px;
+            width: 50px;
+        }
+    }
+  }

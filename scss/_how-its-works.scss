@@ -1,0 +1,103 @@
+.how__its--works {
+    background: url(../image/how-its_works/bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 179px;
+    .how__its--work-content {
+      .content__top {
+        .how__its--works-title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 66px 0 2px;
+        }
+  
+        .how__its--works-heading {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 55px;
+            letter-spacing: -1.5px;
+            color: #FFFFFF;
+            margin-bottom: 132px;
+        }
+      }
+  
+      .content__bottom {
+          .how__its--work-card {
+                position: relative;
+                margin-bottom: 126px;
+              
+              &::before{
+                background-image: url(../image/how-its_works/arrow.svg);
+                position: absolute;
+                content: "";
+                right: 5px;
+                top: 1px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 215px;
+                height: 60px;
+            }
+              .card__content {
+                max-width: 263px;
+
+              .card__number {
+                font-family: 'Lexend Deca';
+                width: 70px;
+                height: 70px;
+                border-radius: 30px;
+                font-size: 30px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 38px;
+                color: #EA3A60;
+              }
+  
+              .card__heading {
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 155%;
+                color: #FFFFFF;
+                margin: 26px 0 15px;
+              }
+  
+              .card__description {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 26px;
+                color: #FFFFFF;
+              }
+            }
+          }
+
+          .rotate{
+            &::before{
+                background-image: url(../image/how-its_works/arrow.svg);
+                position: absolute;
+                content: "";
+                right: 5px;
+                top: 13px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 215px;
+                height: 60px;
+                transform: rotate(3.142rad);
+                transform: scaley(-1);
+            }
+          }
+          .hidden{
+            &::before{
+              visibility: hidden;
+            }
+          }
+      }
+    }
+  }

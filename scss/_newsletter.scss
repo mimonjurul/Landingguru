@@ -1,0 +1,81 @@
+.newsletter {
+    background-color: #EA3A60;
+    background-image: url(../image/newslatter/pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 372px;
+    border-radius: 10px;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    .newsletter__heading {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: -1.5px;
+        color: #FFFFFF;
+        padding-top: 60px;
+    }
+  
+    .newsletter__description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 30px auto 60px;
+        max-width: 546px;
+    }
+  
+    .newsletter__input--field {
+        border-radius: 50px;
+        width: 600px;
+        height: 60px;
+        
+        form{
+            width: 600px;
+            background: #FFFFFF;
+            border-radius: 50px;
+            // gap: ;
+            input {
+                background: transparent;
+                border: none;
+                margin-left: 30px;
+
+                &::-moz-placeholder{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.16px;
+                    color: #EA3A60;
+                    padding: 18px;
+
+
+                }
+                &::placeholder{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                    letter-spacing: -0.16px;
+                    color: #EA3A60;
+                    padding: 18px;
+                }
+            }
+          
+            .subscribe {
+                padding: 13px 42px;
+                border-radius: 50px;
+                border: none;
+                margin-right: 5px;
+                background-color: #EA3A60;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+  }

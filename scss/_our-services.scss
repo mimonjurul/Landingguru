@@ -1,0 +1,74 @@
+.our__services {
+    
+    .our__services--left {
+
+        .main__image {
+            width: auto;
+            top: 0px;
+            left: 0px;
+        }
+
+        .play__btn {
+
+        }
+
+        .shape {
+            left: -161px;
+            bottom: -52px;
+            z-index: -8;
+        }
+
+    }
+}
+
+.our__services--right {
+
+    .our__services--title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 2.1px;
+        text-transform: uppercase;
+        color: #EA3A60;
+    }
+
+    .our__services--heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: -1.5px;
+        color: #0F2137;
+        margin: 15px 0 30px;
+    }
+
+    .our__services--card {
+        margin-bottom: 39px;
+        width: 465px;
+
+        .os__card--content {
+
+            img {
+                margin-left: -13px;
+                margin-right: 14px;
+            }
+
+            .os__card--text {
+
+                .os__card--title {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #0F2137;
+                    margin-bottom: 19px;
+                }
+
+                .os__card--description {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 26px;
+                    color: #343D48;
+                }
+            }
+        }
+    }
+}

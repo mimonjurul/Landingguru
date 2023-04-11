@@ -1,0 +1,49 @@
+.core__features {
+    margin-bottom: 180px;
+    .core__features--left {
+
+        .core__features--title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+            color: #EA3A60;
+        }
+
+        .core__features--heading {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 55px;
+            letter-spacing: -1.5px;
+            color: #0F2137;
+            margin: 8px 0 40px;
+        }
+
+        .core__features--description {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 42px;
+            color: #02073E;
+            max-width: 454px;
+        }
+    }
+
+    .core__features--right {
+
+        .core__features--img {
+            margin: 0 auto;
+
+            .main__img {
+
+            }
+
+            .shape {
+                bottom: -60px;
+                right: -160px;
+                z-index: -10;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,63 @@
+.features {
+    margin: 119px auto 0px;
+    .features__top {
+
+        .features__title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+            color: #EA3A60; 
+        }
+
+        .features__heading {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 55px;
+            letter-spacing: -1.5px;
+            color: #0F2137;
+            margin: 2px auto 90px;
+        }
+    }
+
+    .features__bottom { 
+            grid-gap: 55px 80px;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 181px;
+        .f__card {
+            width: 264px;
+            margin: 0 auto;
+
+
+            .f__card--content {
+
+                .f__card--image {
+
+                    img {
+                        margin-left: -13px;
+                    }
+                }
+
+                .f__card--text {
+
+                    .card__title {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 23px;
+                        color: #0F2137;
+                        margin-bottom: 20px;
+                    }
+
+                    .card__description {
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 26px;
+                        color: #343D48;                        
+                    }
+                }
+            }
+        }
+    }
+}
